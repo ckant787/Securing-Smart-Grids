@@ -45,6 +45,24 @@ Main.py implements following predefined modules such like “sys”, “csv” a
 1. ```gi.srcData()```: It provides fetching of data at collector node.
 1. ```encrypt.dec()```: It decrypt the encrypted data using public and private key.
 
+### Demo
+![Commands](/MD/cmd.png)
+Format: ![Alt Text](url)
+
+![Commands](/MD/des.png)
+Format: ![Alt Text](url)
+
+![Commands](/MD/encryption.png)
+Format: ![Alt Text](url)
+
+![Commands](/MD/enList.png)
+Format: ![Alt Text](url)
+
+![Commands](/MD/enRes.png)
+Format: ![Alt Text](url)
+
+![Commands](/MD/decrypt.png)
+Format: ![Alt Text](url)
 
 ### Conclusion
 Under this project, Aggregation is performed in a distributed manner accordance to the aggregation tree – each node collects data from its children, aggregates them with its own data, and sends the intermediate result to the parent node. Homomorphic Encryption is applied to protect the privacy of data. Aggregated data is made secure on the aggregation path and ensured that results are not revealed to smart meters while being traversed on a network. This module does not cover user maliciously forging their own data to manipulate aggregation result. Thus ensuring privacy control from foreign attacks only. Surely better techniques are coming to check for forged data and recovering the loses. 
