@@ -58,8 +58,6 @@ Format: ![Alt Text](url)
 ![Commands](/MD/encrypt.png)
 Format: ![Alt Text](url)
 
-![Commands](/MD/encryption.png)
-Format: ![Alt Text](url)
 
 ![Commands](/MD/enList.png)
 Format: ![Alt Text](url)
