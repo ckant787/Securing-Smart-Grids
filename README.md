@@ -57,4 +57,4 @@ Main.py implements following predefined modules such like “sys”, “csv” a
 ### Conclusion
 Under this project, Aggregation is performed in a distributed manner accordance to the aggregation tree – each node collects data from its children, aggregates them with its own data, and sends the intermediate result to the parent node. Homomorphic Encryption is applied to protect the privacy of data. Aggregated data is made secure on the aggregation path and ensured that results are not revealed to smart meters while being traversed on a network. This module does not cover user maliciously forging their own data to manipulate aggregation result. Thus ensuring privacy control from foreign attacks only. Surely better techniques are coming to check for forged data and recovering the loses. 
 
-### [Report](/REPORT/Homomorphic Encryption.docx)
+### [Report](https://github.com/shubham-gaur/homomorphic-encryption/raw/master/REPORT/Homomorphic%20Encryption.docx)
