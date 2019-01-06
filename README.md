@@ -34,7 +34,7 @@ while(condition):
 Main.py implements following predefined modules such like “sys”, “csv” and user defined modules such as “spin”, “feed”, “encrypt”. Further modules like “mygraph” and “paillier” are used within defined function to create a minimum spanning tree and provide encryption at node data.
 
 #### List of Functions
-1. tree(): It provides visual tree representation of input data in the form of minimum rooted spanning tree where root is the collector node and all the other nodes are either substations or smart meters.
+1. ```tree()```: It provides visual tree representation of input data in the form of minimum rooted spanning tree where root is the collector node and all the other nodes are either substations or smart meters.
 
 1. ```gi.destinations()```: It provides list of all the nodes set as destination in the GraphInput().
 1. ```gi.implement()```: It provides the input to MyGraph and create a minimum spanning tree on the basis of input provided in csv file.
@@ -49,7 +49,13 @@ Main.py implements following predefined modules such like “sys”, “csv” a
 ![Commands](/MD/cmd.png)
 Format: ![Alt Text](url)
 
+![Commands](/MD/tree.png)
+Format: ![Alt Text](url)
+
 ![Commands](/MD/des.png)
+Format: ![Alt Text](url)
+
+![Commands](/MD/encrypt.png)
 Format: ![Alt Text](url)
 
 ![Commands](/MD/encryption.png)
