@@ -9,8 +9,8 @@ import math
 
 
 # Set up input and output variables for the script
-test1 = open("\\mnt\\S:\\Projects\\Homomorphic/Encryption\\HE_1.0\\vertex.csv", "r")
-test2= open("\\mnt\\S:\\Projects\\Homomorphic/Encryption\\HE_1.0\\edge.csv", "r")
+test1 = open("vertex.csv", "r")
+test2= open("edge.csv", "r")
 
 # Set up CSV reader and process the header
 csvReader1 = csv.reader(test1)
